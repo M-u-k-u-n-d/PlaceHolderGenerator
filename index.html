@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <div class="center">
+            <div class="heading">
+                <h1>Placeholder Image path Generator</h1>
+            </div>
+            <div class="content">
+            <div>
+                <label for="selectImage">Image Size :</label>
+                <select id="selectImage">
+                    <option value="100x50">Small (100x50)</option>
+                    <option value="200x200">Medium Square (200x200)</option>
+                    <option value="350x150">Medium (350x150)</option>
+                    <option value="400x400">Large Square (400x400)</option>
+                    <option value="650x350">Large (650x350)</option>
+                    <option value="800x600">X-Large (800x600)</option>
+                    <option value="1920x1080">Full HD (1920x1080)</option>
+                </select>
+            </div>
+
+            <div class="parent">
+                <label for="nameOnImage">Text on Image: </label>
+                <input type="text" name="" id="nameOnImage">
+            </div>
+
+            <div class="parent">
+                <label for="backgroundColor">Color of Background: </label>
+                <input type="color" name="" class="style1" id="backgroundColor" value="#ff7f7f">
+            </div>
+
+            <div class="parent">
+                <label for="textColor">Color of Text : </label>
+                <input type="color" name="" class="style1" id="textColor" value="#ffdb7f">
+            </div>
+            </div>
+
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="container">
+                <textarea name="" id="urlPath" cols="30" rows="2">Link will be available here.</textarea>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
